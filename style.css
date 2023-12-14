@@ -30,6 +30,7 @@ body {
   color: darkcyan;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #6cddeb;
+  text-align: center;
 }
 
 .container, .titleContainer {
@@ -73,11 +74,9 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-  .ball-text {
+  .title {
     font-size: 2rem;
-    right: 50%;
-    bottom: 25%;
-    transform: translate(50%, 50%);
+    text-align: center;
   }
   h1 {
     font-size: 2rem;
@@ -212,10 +211,8 @@ nav.black > ul > li > a{
       width: 100%;
       text-align: center;
       line-height: 30px !important;
-      color: #fff;
-      
+      color: #fff;      
   }
-
   nav > ul{
       width: 100%;
       display: none;
